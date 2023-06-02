@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   background-color: aqua; 
+}
+.tap{
+    width: 50%;
+    border-collapse: collapse;
+    /* padding-bottom: -4rem; */
+}
+
+.tap th, .tap td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid #1d1c1c;
+}
+
+.tap th {
+    background-color: #f2f2f2;
+}
+
+.tap tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
